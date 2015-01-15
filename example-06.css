@@ -1,7 +1,3 @@
-/* ---------------------------------------------------------- */
-/* Float Examples for MakerSquare Front-End Class ----------- */
-/* created by Elyse Holladay @elyseholladay ----------------- */
-/* ---------------------------------------------------------- */
 
 /* Example 06 */
 
@@ -11,24 +7,27 @@
 }
 
 
-.main-content {}
-/* hint! what do you need to add here? */
+.main-content {
+
+}
 
 .widget {
+  display: inline-block;
 	/* how do you make the widgets float next to each other? */
 	/* what happens when you change float left to float right? why? */
 }
 
 
 .footer {
-	/* hint! */
+	clear: both;
 }
 
 
 /* Bonus: what happens if you make a couple of the widgets taller than the other? */
 /*.widget.tall {}*/
 
-/* this CSS class targets widget #5. what can you do to it to make the rows of widgets get back in order? */
+/* this CSS class targets widget #5. 
+what can you do to it to make the rows of widgets get back in order? */
 .widget.fix {
 	background: #8F1B65;
 }
