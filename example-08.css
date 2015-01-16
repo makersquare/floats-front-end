@@ -1,9 +1,13 @@
 
 /* Example 08 */
 
+body {
+  color: white;
+}
+
 .container {
 	width: 90%
-	margin: 0 auto;
+	margin: auto;
 }
 
 .header {
@@ -11,23 +15,25 @@
 
 
 .sidebar {
-  width: 33%;
-  display: inline-block;
+  width: 33.3%;
+  float: left;
   height: 300px;
 }
 
 .main-content {
-  width: 33%;
-  display: inline-block;
+  width: 33.3%;
+  float: left;
   height: 300px;
 }
 
 .sub-content {
-  width: 33%;
-  display: inline-block;
+  width: 33.3%;
+  float: left;
   height: 300px;
 }
 
 
 .footer {
+  clear: both;
 }
+

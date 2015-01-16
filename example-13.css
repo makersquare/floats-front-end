@@ -1,8 +1,57 @@
-/* ---------------------------------------------------------- */
-/* Float Examples for MakerSquare Front-End Class ----------- */
-/* created by Elyse Holladay @elyseholladay ----------------- */
-/* ---------------------------------------------------------- */
 
 /* Example 13 */
 
 /* I'm blank! Write some CSS to style your layout! */
+
+body {
+  clear: both;
+}
+
+.header-container {
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+
+.logo {
+  background-color: white;
+}
+
+
+.container {
+  width: 90%;
+  padding: 4%;
+  margin: auto;
+  background-color: white;
+}
+
+.column1, .column2 {
+  width: 50%;
+  padding: 1%;
+  margin: auto;
+  float: left;
+  text-align: center;
+}
+
+img {
+  width: 85%;
+  height: auto;
+  text-align: center;
+  margin: 2%;
+/*  max-height: 500px;*/
+}
+
+.quotes {
+  width: 85%;
+  height: auto;
+  margin: auto;
+  border: 2px solid black;
+  text-align: justify;
+}
+
+.container:after {
+  content: " ";
+  height: 0;
+  visibility: hidden;
+  display: block;
+  clear: both;
+}
