@@ -14,15 +14,19 @@
 .header {}
 
 .sidebar {
-	/* hint! */
+	float: right;
+  width: 25%;
+  height: 300px;
 }
 
 .main-content {
-	/* hint! */
+	float: left;
+  width: 75%;
+  height: 300px;
 }
 
 .footer {
-	/* hint! */
+	clear: both;
 }
 
 /*

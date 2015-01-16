@@ -1,34 +1,63 @@
-/* ---------------------------------------------------------- */
-/* Float Examples for MakerSquare Front-End Class ----------- */
-/* created by Elyse Holladay @elyseholladay ----------------- */
-/* ---------------------------------------------------------- */
 
 /* Example 06 */
 
+body {
+  width: 80%;
+}
+
 .container {
-	width: 1024px; /* what happens to the widget boxes when you change this width? */
-	margin: 0 auto;
+  padding: auto;
+	width: 100%; /* what happens to the widget boxes when you change this width? */
+	/*margin: auto;*/
 }
 
 
-.main-content {}
-/* hint! what do you need to add here? */
+.main-content:after {
+  content: " ";
+  height: 0;
+  display: block;
+  visibility: hidden;
+  clear: left;
+}
 
 .widget {
+  float: left;
+  height: 10vw;
+  width: 15%;
+  max-width: 4em;
+  max-height: 4em;
+  margin: 2%;
+  padding-top: 5%;
 	/* how do you make the widgets float next to each other? */
 	/* what happens when you change float left to float right? why? */
 }
 
+.widget:hover {
+  background-color: lightblue;
+}
+
 
 .footer {
-	/* hint! */
+	clear: both;
 }
 
 
 /* Bonus: what happens if you make a couple of the widgets taller than the other? */
 /*.widget.tall {}*/
 
-/* this CSS class targets widget #5. what can you do to it to make the rows of widgets get back in order? */
+/*.widget.tall {
+  height: 13vw;
+}*/
+
+/* this CSS class targets widget #5. 
+what can you do to it to make the rows of widgets get back in order? */
 .widget.fix {
-	background: #8F1B65;
 }
+
+
+
+
+
+
+
+
